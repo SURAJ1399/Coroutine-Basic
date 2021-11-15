@@ -15,11 +15,4 @@ object RxJava {
         }.subscribe()
     }
 
-
-
-
-
-
-
-
 }

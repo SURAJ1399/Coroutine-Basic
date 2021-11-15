@@ -1,8 +1,13 @@
 ext {
     coroutineVersion = '1.5.2'
+    mockitoVersion = '4.0.0'
+    rxVersion='3.0.0'
 
     generalDependencies = [
             coroutine : "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutineVersion",
-            coroutineAndorid :"org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutineVersion"
+            coroutineAndorid :"org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutineVersion",
+            mockito:  "org.mockito:mockito-core:$mockitoVersion",
+            rxAndroid: "io.reactivex.rxjava3:rxandroid:$rxVersion",
+            rxJava: "io.reactivex.rxjava3:rxjava:$rxVersion"
     ]
 }

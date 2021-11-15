@@ -45,4 +45,10 @@ dependencies {
 
     implementation  rootProject.ext.generalDependencies.coroutine
     implementation  rootProject.ext.generalDependencies.coroutineAndorid
+    implementation  rootProject.ext.generalDependencies.rxAndroid
+    implementation  rootProject.ext.generalDependencies.rxJava
+
+    testImplementation     rootProject.ext.generalDependencies.mockito
+    testImplementation 'com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0'
+
 }
